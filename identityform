@@ -1,0 +1,58 @@
+<html>
+  <head>
+ <meta charset="UTF-8">
+    <title>Identifier Form</title>
+
+    <style>
+        label {
+            color:black;
+            size: 2in;
+        }
+
+        input {
+            width: 400px;
+            padding: 6px 15px;
+            margin: 2px 0;
+            box-sizing: border-box;
+        }
+
+        .box {
+         width: 25px;
+        }
+
+        select {
+            padding: 6px 15px;
+            margin: 2px 0;
+            box-sizing: border-box;
+        }
+
+    </style>
+
+    </head>
+      <body>
+        <h1>Online Identifying System</h1>
+        <p><br>
+          <label><b>SSN (Social Security Number)</b></label>
+            <br>
+          <input type="number">
+            <br><br>
+          <label><b> Full Name </b></label>
+            <br>
+          <input name="name" type="text">
+            <br><br>
+          <label><strong> Address </strong></label>
+            <br>
+          <input name="name" type="text">
+            <br><br>
+          <label><strong> Date of Birth </strong></label>
+            <br>(Please input as dd/mm/yy) <br>
+          <input name="name" type="text">
+            <br><br>
+          <label><strong> Blood Type </strong></label>
+            <br>
+          <input name="name" type="text">
+            <br><br><br>
+          <input style="color: black;" type="submit" value="Find Person">
+          </p>
+         </body>
+         </html>
